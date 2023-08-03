@@ -19,6 +19,16 @@ resource "google_container_cluster" "workload_cluster" {
       cidr_block = "0.0.0.0/0"
     }
   }
+  pod_security_policy_config {
+    enabled = true
+  }
+  network_policy {
+  }
+  master_auth {
+    client_certificate_config {
+      issue_client_certificate = false
+    }
+  }
 }
 
 resource "google_container_node_pool" "custom_node_pool" {
