@@ -1,0 +1,23 @@
+{
+  "name": "protopolusion_js",
+  "version": "1.0.0",
+  "description": "appsec poc",
+  "main": "index.js",
+  "dependencies": {
+    "@blocksx/bulk": "0.1.11-alpha.0",
+    "@blocksx/eos": "^0.3.2",
+    "flat": "5.0.0",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
